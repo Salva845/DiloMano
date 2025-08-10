@@ -1,6 +1,6 @@
 # translator.py
-from diccionario import diccionario_señas
+from diccionario import diccionario_senas
 
 def traducir_a_video(palabra):
     palabra = palabra.lower().strip()
-    return diccionario_señas.get(palabra, None)
+    return diccionario_senas.get(palabra, None)
