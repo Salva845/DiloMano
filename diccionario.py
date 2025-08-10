@@ -6,3 +6,4 @@ diccionario_seÃƒÂ±as = {
     "estas": "seÃƒÂ±as/estas.mp4",
     "bien": "seÃƒÂ±as/bien.mp4"
 }
+hola angel
