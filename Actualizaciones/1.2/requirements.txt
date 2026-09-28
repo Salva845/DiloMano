@@ -1,0 +1,43 @@
+# Dilo Mano - Traductor de Voz a Señas
+# Requirements actualizados con mejoras
+
+# Reconocimiento de voz
+vosk>=0.3.45
+sounddevice>=0.4.6
+
+# Procesamiento de lenguaje natural
+stanza>=1.7.0
+torch>=2.0.0  # Requerido por Stanza
+
+# Procesamiento de imágenes y videos
+Pillow>=10.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8  # Para soporte de diferentes formatos de video
+
+# Interfaz gráfica (incluida con Python)
+# tkinter - No necesita instalarse, viene con Python
+
+# Procesamiento de texto
+unicodedata  # Incluida con Python estándar
+
+# Threading y concurrencia (incluidas con Python)
+# threading, queue, functools - Incluidas con Python estándar
+
+# Sistema de archivos y configuración
+# json, os, time - Incluidas con Python estándar
+
+# Utilidades adicionales
+numpy>=1.24.0  # Para procesamiento de audio
+
+# Opcional: Para mejor rendimiento en lemmatización
+# torch-audio  # Si se quiere usar GPU para Stanza (opcional)
+
+# Notas de instalación:
+# 1. Instalar requirements: pip install -r requirements.txt
+# 2. Descargar modelo Vosk español: 
+#    wget https://alphacephei.com/vosk/models/vosk-model-es-0.42.zip
+#    unzip vosk-model-es-0.42.zip
+# 3. Descargar modelo Stanza español (se hace automáticamente en primer uso):
+#    python -c "import stanza; stanza.download('es')"
+
+# Versiones mínimas de Python soportadas: Python 3.8+

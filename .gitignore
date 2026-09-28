@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+metrics-*.jsonl
+metrics-last.json
+.pytest_cache/
+.mypy_cache/
+senas_normalizadas/
+vosk-model-es-0.42/
